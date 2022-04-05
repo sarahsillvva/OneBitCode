@@ -15,7 +15,9 @@ Repositorio criado para armazenar tarefas desenvolvidas no curso FullStack em Ja
 
 # :heavy_check_mark: Tecnologias 
  
- Linguagem principal utilizada JavaScript 
+ - JavaScript 
+ - CSS 
+ - HTML
  
 # :fire: Adicionais
  
