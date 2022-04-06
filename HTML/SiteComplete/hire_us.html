@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>SpaceX</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">
+                <img src="img/logo.png" alt="logo">
+            </a>
+            <a href="spaceship.html">| The spaceship</a>
+            <a href="hire_us.html">| Hire us</a>
+        </nav>
+        <hr>
+    </header>
+    <section>
+        <h2> Hire Us Now</h2>
+    </section>
+    <br>
+    <section>
+        Leave a messagen to request one of our Services ande we get back to you as soon as posible
+    </section>
+    <br></br>
+    <section>
+        <form>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">- E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="jose@gmail.com" required>
+            </div>
+            <br></br>
+            <div>
+                <label for="spaceship">spaceship:</label>
+                <select name="spaceship" id="spaceship">
+                    <option value="falcon9">Falcon 9</option>
+                    <option value="falcon_heavy">Falcon Heavy</option>
+                </select>
+                <label for="typeService">|Type Service</label>
+                <input type="search" id="typeService" name="typeService" list="typeServices">
+                <datalist id="typeServices">
+                    <option value="Nam quis nulla. Integer malesuada"></option>
+                    <option value="Integer malesuada"></option>
+                    <option value="nulla. Integer malesuada"></option>
+                </datalist>
+            </div>
+            <br> </br>
+            <div>
+                <input type="submit" value="Send Message">
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>
