@@ -1,0 +1,9 @@
+h3{
+    font-family:monospace;
+}
+
+input,select,textarea{
+    border-radius: 4px;
+    border-bottom: 2px solid #972323;  
+}
+

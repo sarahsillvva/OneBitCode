@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Formulario</title>
+    <link rel="stylesheet" type="text/css" href="form.css" />
+
+</head>
+
+<body>
+    <h3>Cadastro</h3>
+    <form>
+        <div>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" placeholder="Ex: Jose da Silva" required>
+        </div>
+        <br>
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="jose@gmail.com" required> -
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <br>
+        <div>
+            <label>Data Nascimento:</label>
+            <input type="date" id="birthday" name="birthday" required>
+            <label for="photo">- Foto:</label>
+            <input type="file" id="photo" name="photo" required>
+        </div>
+        <br>
+        <div>
+            <label for="nationality">Nascionalidade:</label>
+            <select name="nationality" id="nationality">
+                <option value="russian"> Russa</option>
+                <option value="american"> Americana</option>
+                <option value="brasilian"> Brasileira</option>
+            </select>
+            - Gênero:
+            <label for="female">F</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label>M</label>
+            <input type="radio" name="gender" id="male" value="male">
+        </div>
+        <div>
+            <p>Suas principais qualidades:</p>
+            <label for="intelligence">inteligência</label>
+            <input type="checkbox" name="intelligence" id="intelligence" /> |
+            <label for="resilience">Resiliência</label>
+            <input type="checkbox" name="resilience" id="resilience" /> |
+            <label for="physic">Preparo físico</label>
+            <input type="checkbox" name="physic" id="physic" /> |
+            <label for="education">Educação</label>
+            <input type="checkbox" name="education" id="education" />
+        </div>
+
+
+        <div>
+            <textarea name="description" id="description"
+                placeholder="Motivo pelo qual gostaria de se cadastrar"></textarea>
+        </div>
+
+
+        <div>
+            <input type="submit" value="Criar" />
+        </div>
+        </div>
+    </form>
+</body>
+
+</html>
