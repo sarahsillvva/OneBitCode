@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "bulma": "^0.9.3"
+    "bulma": "^0.9.3",
+    "bulma-social": "^2.1.0"
   }
 }
