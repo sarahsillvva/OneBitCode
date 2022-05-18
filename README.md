@@ -18,6 +18,8 @@ Repositorio criado para armazenar tarefas desenvolvidas no curso FullStack em Ja
  - JavaScript 
  - CSS 
  - HTML
+ - SASS
+ - BULMA
  
 # :fire: Adicionais
  
